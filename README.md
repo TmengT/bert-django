@@ -15,7 +15,7 @@
   
   ## request protocol
   id : 192.168.1.105:8888
-  vector post request json:
+ /// vector post request json:
     {
       "method":"bertvec",
       "content":"习近平：止暴制乱 恢复秩序是香港当前最紧迫的任务"
@@ -39,5 +39,5 @@
         },
         "cost_time": "0.6205282211303711"
     }
-    
+     /// 
     
