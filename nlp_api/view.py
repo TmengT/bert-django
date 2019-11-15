@@ -18,16 +18,9 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.request import Request
 from rest_framework.views import APIView
-from .method import Segment,Semantic,smart_accumulate,bert_ner,bert_vec
+from .method import bert_ner,bert_vec
 import time
-from pyhanlp import *
 from .utils import fileprocessing as fp
-
-print("loading  model begin !")
-segment = Segment()
-semantic = Semantic()
-HanLP.segment('nihao!')
-print("loading   model end !")
 
 
 @api_view(['GET','POST','DELETE','PUT'])
