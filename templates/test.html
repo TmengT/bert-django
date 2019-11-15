@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a href="{% url  'news-year-archive' 2012 %}"> 2012 Archive</a>
+    <ul>
+        {% for yearvar in year_list %}
+        <li> <a href="{% url 'news-year-archive' yearvar%}">{{ yearvar}} Archive </a>></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

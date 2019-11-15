@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>词云</title>
+</head>
+<body>
+    <form method="post" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1>请上传TXT文件</h1><br>
+        <input type="file" name="myfile"><br>
+        <input type="submit" value="上传">
+    </form>
+
+    <h1>词云展示：</h1><hr>
+    <table border="1">
+        <!-- <h1>{{ data }}</h1>
+        <img src="/static/res.png" alt="词云"/> -->
+    </table>
+        {% ifnotequal null pic %}
+        <img src="{{pic}}"  alt="词云图" align="center"/>
+        {% endifnotequal %}
+</body>
+</html>
