@@ -6,8 +6,9 @@
   djangorestframework == 3.9.2
   
 ## data model 
-    bert chinese model[chinese_L-12_H-768_A-12](https://github.com/google-research/bert)
-    bert NER model [bert-ner](https://pan.baidu.com/s/10VYvMN24O7rnyaM-__P0wA)
+  bert chinese model[chinese_L-12_H-768_A-12](https://github.com/google-research/bert)
+  
+  bert NER model [bert-ner](https://pan.baidu.com/s/10VYvMN24O7rnyaM-__P0wA)
 
 ## usage
   ## start :
