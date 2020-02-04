@@ -1,5 +1,5 @@
 # bert-django:blush:
- 对bert的一个移植测试，提供了bert 对中文的向量接口和命名实体识别的restful接口，希望对的学习bert 的朋友有点帮助。
+ 对bert的一个移植测试，提供了bert 对中文的向量接口和命名实体识别的restful接口，希望对学习bert 的朋友有点帮助。
 
 ## env version
   tenorflow-gpu == 1.13.1
